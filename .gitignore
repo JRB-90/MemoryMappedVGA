@@ -17,6 +17,11 @@
 *.sof
 *.bak
 *.sld
+*.cdf
+*.qip
+*.vwf
 
 db/
 incremental_db/
+simulation/
+greybox_tmp/
