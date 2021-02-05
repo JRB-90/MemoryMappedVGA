@@ -1,0 +1,9 @@
+*.htm
+*.qpf
+*.qsf
+*.qws
+*.sdc
+*.qdf
+
+db/
+
