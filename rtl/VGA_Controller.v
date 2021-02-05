@@ -12,32 +12,7 @@ module VGA_Controller(
 	output reg	[3:0]		vga_b
 );
 
-// 640 X 480 @ 60Hz
-//localparam pixelsH = 640;
-//localparam frontH = 16;
-//localparam syncH = 96;
-//localparam backH = 48;
-//localparam sizeH = pixelsH + frontH + syncH + backH;
-//
-//localparam pixelsV = 480;
-//localparam frontV = 11;
-//localparam syncV = 2;
-//localparam backV = 31;
-//localparam sizeV = pixelsV + frontV + syncV + backV;
-
-
-// 640 X 350 @ 60Hz
-localparam pixelsH = 640;
-localparam frontH = 16;
-localparam syncH = 96;
-localparam backH = 48;
-localparam sizeH = pixelsH + frontH + syncH + backH;
-
-localparam pixelsV = 350;
-localparam frontV = 37;
-localparam syncV = 2;
-localparam backV = 60;
-localparam sizeV = pixelsV + frontV + syncV + backV;
+`include	"VGA_Params.h"
 
 initial begin
 	is_drawing = 1'b0;

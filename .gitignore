@@ -4,6 +4,19 @@
 *.qws
 *.sdc
 *.qdf
+*.rpt
+*.summary
+*.pin
+*.done
+*.rpt
+*.smsg
+*.jdi
+*.htm
+*.pof
+*.bsf
+*.sof
+*.bak
+*.sld
 
 db/
-
+incremental_db/
